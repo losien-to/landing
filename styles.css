@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #2670a6;
+}
+
+.page-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e1bed3;
+  gap: 2rem;
+}
+
+img {
+  width: 120px;
+  height: auto;
+}
