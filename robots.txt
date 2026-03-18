@@ -1,0 +1,9 @@
+# Robots.txt for losien.to
+# Single-page React landing page - allow all crawling
+User-agent: *
+Allow: /
+
+# Block common build/dev artifacts if they somehow get served
+Disallow: /static/js/*.map
+Disallow: /static/css/*.map
+Disallow: /.well-known/
